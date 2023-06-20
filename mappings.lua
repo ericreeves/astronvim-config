@@ -22,9 +22,12 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<leader>|"] = { ":vsplit<CR>", desc = "VSplit" },
+    ["<leader>-"] = { ":split<CR>", desc = "Split" },
   },
   t = {
     -- setting a mapping to false will disable it
+    -- ["jk"] = { "<ESC>" },
     -- ["<esc>"] = false,
   },
 }
